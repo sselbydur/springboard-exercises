@@ -8,13 +8,21 @@ function search(str) {
 	let results = [];
 
 	// TODO
-	for (let i = 0; i < fruit.length; i++) {
-		fruit[i].some(function(partialString){
-			if(true){
-				results.push(fruit[i])
-			}
-		})
-	}
+	// for (let i = 0; i < fruit.length; i++) {
+	// 	fruit[i].some(function(partialString){
+	// 		if(true){
+	// 			results.push(fruit[i])
+	// 		}
+	// 	})
+	// }
+
+	// for (unit of fruit){
+	// 	unit.some(function(partialFruit){
+	// 		if (true){
+	// 			results.push(unit)
+	// 		}
+	// 	})
+	// }
 
 	return results;
 	console.log(results)
