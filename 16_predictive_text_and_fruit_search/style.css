@@ -4,6 +4,7 @@
 
 :focus {
  /* TODO */
+  
 }
 
 body {
@@ -15,12 +16,16 @@ background: linear-gradient(90deg, rgba(245,33,117,1) 0%, rgba(255,235,0,1) 48%,
 
 input {
  /* TODO */
-
+  opacity: 0.6;
+  text-align: center;
+  font-weight: 600;
 }
 
 .search-container {
  /* TODO */ 
-
+  display: flex;
+  justify-content: center;
+  margin-top: 45%;
 }
 .search-container input,
 .search-container .suggestions {
@@ -44,6 +49,8 @@ ul li {
 }
 ul li:hover {
   /* TODO */
+  transition: 500ms;
+  opacity: 1;
 }
 
 input {
