@@ -30,8 +30,8 @@ function showSuggestions(results, inputVal) {
 	// TODO
 	const newLi = document.createElement('li');
 	for (let i = 0; i < results.length; i++){
-		newLi.innerText(results[i])
-		newLi.appendChild('ul')
+		newLi.innerText = results[i]
+		newLi.append('ul')
 	}
 
 }
