@@ -25,7 +25,7 @@ input {
  /* TODO */ 
   display: flex;
   justify-content: center;
-  margin-top: 45%;
+  margin-top: 5%;
 }
 .search-container input,
 .search-container .suggestions {
