@@ -120,7 +120,8 @@ handleClick(evt) {
     }
       
     // switch players
-    this.currPlayer = this.currPlayer === this.players[0] ? this.players[1] : this.players[0];
+    this.currPlayer = 
+      this.currPlayer === this.players[0] ? this.players[1] : this.players[0];
   }
 
   checkForWin() {
